@@ -8,6 +8,7 @@ urlpatterns = patterns('',
 
     # Examples:
     url(r'^$', 'web_api_calls.views.tumblr_api', name='home'),
+    url(r'^github', 'web_api_calls.views.github_api', name='home'),
     # url(r'^mypage/', include('mypage.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:
